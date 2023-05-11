@@ -12,7 +12,7 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5457862323:AAEqZqChDW0MckF0vZQ_ck_DGNM1tE-efVs") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
-    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@HEGGHEGEE")
+    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@cigutg")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "video")
     OWNER_ID = os.environ.get("OWNER_ID", "2056407064")
     LIMIT = int(os.environ.get("LIMIT", "25000"))
