@@ -9,7 +9,7 @@ class Config:
     
     API_ID = int(os.environ.get("API_ID", "10098309"))
     API_HASH = os.environ.get("API_HASH", "aaacac243dddc9f0433c89cab8efe323")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5473067352:AAGWQhamLe-9LT-jMtxhY5PID0FJ03x8wvg") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5473067352:AAGL_dvVP0R7_bVg0HL2F8_cKMVuFFevJyI") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@OkFiles")
