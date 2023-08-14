@@ -9,10 +9,10 @@ class Config:
     
     API_ID = int(os.environ.get("API_ID", "10098309"))
     API_HASH = os.environ.get("API_HASH", "aaacac243dddc9f0433c89cab8efe323")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5567435254:AAEDn9yL-YYXyfI_O3glYrS3AC-SRU5XcN8") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5473067352:AAHMEGb37UGorEcmgi_43YW5AQ9VjEQXuR4") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
-    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@OkFiles")
+    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@cigutg")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "video")
     OWNER_ID = os.environ.get("OWNER_ID", "2056407064")
     LIMIT = int(os.environ.get("LIMIT", "700000"))
