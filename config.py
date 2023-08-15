@@ -7,8 +7,8 @@ import logging
 
 class Config:
     
-    API_ID = int(os.environ.get("API_ID", "10098309"))
-    API_HASH = os.environ.get("API_HASH", "aaacac243dddc9f0433c89cab8efe323")
+    API_ID = int(os.environ.get("API_ID", "20506609"))
+    API_HASH = os.environ.get("API_HASH", "94f95fc96d4d914d8a807ecb3ca6ba92")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5473067352:AAHMEGb37UGorEcmgi_43YW5AQ9VjEQXuR4") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
@@ -17,7 +17,7 @@ class Config:
     OWNER_ID = os.environ.get("OWNER_ID", "2056407064")
     LIMIT = int(os.environ.get("LIMIT", "700000"))
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
-    SESSION = os.environ.get("SESSION", "BQE45_EAA5JNTw2uFcGlV-h3VQ4IefkebZf4d4arKR_yZeAp5236ggMsTAZQIzzzllq9DaRjl6ME04zIxwqLGzI4ebR7OPpMiecjBxxNIHXylH8sa52AsdeokeKBF1HvhepTTiKquu8hmQp6AIXUqs9QUgMNheQsyj1LCWVokf254cmwtkoWfFFMuWscSnztgvjc02e4Mp4hOkcxY49Oj-m3LCmWXuY6w8RLxEeCoGiah_brLVPk8fEKaWZklqN_WOSV4HRwZiXKMXJOlT_yRE48cf92GLQ1c7_1XVM9r6fESIUyiOtp_I_v7PU1CYq4fV-J9zW8KomocLqfJOhYqlICMcsKZgAAAAFhVMVfAA")
+    SESSION = os.environ.get("SESSION", "BQE45_EAePhCWCBMpE9I9NJ6jIysRC4od9tf1_xIGzSvXjAPThrqK42SyrxEEoS7kPzIM4zlTVuQzNh2xe_lc0sPHQ14f_Z-gtmc1iG1sWNsdtct3Rqy5dRR2pA191dNLsD10ddeFcrni4vwt4aGFydlCSta_So9ZXCVPVunORNibC3eoMxV4WgYNNYQpKzmh0uzMKu1PdaALXueO_b7OfVTHbkfLwMmdfagURfDPoAUaqQ25BVw5gL8dvaOLQPW9hMDG6wfky4yC-afUKAQaIIN-zWagpxLC7PEB8RQalqzYXe3rrHbQQKK6MsODDAVOEdw31NvPc0o-zj3kRwvaGgIpirwAAAAFhVMVfAA")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001837099658"))
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
